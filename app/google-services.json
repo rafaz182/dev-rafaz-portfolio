@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1017906484838",
+    "project_id": "dev-rafaz-portfolio",
+    "storage_bucket": "dev-rafaz-portfolio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017906484838:android:e2cd82b4dda55971ecffa7",
+        "android_client_info": {
+          "package_name": "dev.rafaz.portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvt20EuJomXHrYMw8Y0tDZVPAvPUgITZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

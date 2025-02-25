@@ -1,12 +1,14 @@
 [versions]
 #plugin
 agp                         = "8.8.1"
+googleServices              = "4.4.2"
 kotlin                      = "1.9.25"
 #libs
 appcompat                   = "1.6.1"
 androidActivity             = "1.10.0"
 coreKtx                     = "1.15.0"
-composeBom                  = "2025.02.00"
+composeBom                  = "2025.02.00" #https://developer.android.com/develop/ui/compose/bom/bom-mapping
+firebaseBom                 = "33.9.0"
 material                    = "1.10.0"
 #test
 junit                       = "4.13.2"
@@ -23,6 +25,8 @@ androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-
 androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
 androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
 androidx-core-ktx           = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+firebase-analytics          = { group = "com.google.firebase", name = "firebase-analytics"}
+firebase-bom                = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom"}
 material                    = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -31,6 +35,7 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 
 [plugins]
-android-application = { id = "com.android.application", version.ref = "agp" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-application         = { id = "com.android.application", version.ref = "agp" }
+google-services             = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+kotlin-android              = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 
