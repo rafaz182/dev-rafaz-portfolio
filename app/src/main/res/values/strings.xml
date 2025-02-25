@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">rafaz.dev</string>
+    <!--region ColorScreen-->
+
+    <!--Exemplo de uso:
+    background → Branco ou cinza claro.
+    onBackground → Preto ou cinza escuro (para contraste).-->
+    <string name="color_background_description">Cor de fundo principal da UI</string>
+    <string name="color_onBackground_description">Cor do conteúdo (texto, ícones, etc.) sobre o background</string>
+    <!--Exemplo de uso:
+    primary → Azul (#6200EE no Material 3).
+    onPrimary → Branco (#FFFFFF).
+    primaryContainer → Azul claro (#BB86FC).
+    onPrimaryContainer → Azul escuro (#3700B3)-->
+    <string name="color_primary_description">A cor principal da UI, usada em botões, barras de topo, ícones importantes</string>
+    <string name="color_onPrimary_description">Cor usada para o texto e ícones sobre primary (geralmente branco)</string>
+    <string name="color_primaryContainer_description">Variante mais clara/escura de primary, usada para fundos de cards, seções.</string>
+    <string name="color_onPrimaryContainer_description">Cor usada sobre primaryContainer (geralmente escura)</string>
+    <string name="color_inversePrimary_description">Versão alternativa do primary, usada no modo escuro para manter contraste.</string>
+
+    <string name="color_secondary_description">A secondary color provides more ways to accent and distinguish your product. Having a secondary color is optional, and should be applied sparingly to accent select parts of your UI.</string>
+    <string name="color_surface_description">Surface colors affect surfaces of components, such as cards, sheets, and menus.</string>
+    <string name="color_error_description">Error color indicates errors in components, such as invalid text in a text field. The baseline error color is #B00020.</string>
+    <string name="color_on_description">Whenever elements, such as text or icons, appear in front of those surfaces, those elements should use colors designed to be clear and legible against the colors behind them. This category of colors is called “on” colors.</string>
+    <!--3. Secondary (Secundária)
+
+    secondary → Cor secundária da UI, usada para elementos complementares.
+    onSecondary → Cor usada sobre secondary.
+    secondaryContainer → Variante do secondary, usada como fundo de cards e seções.
+    onSecondaryContainer → Cor usada sobre secondaryContainer.
+
+     Exemplo de uso:
+
+    secondary → Laranja.
+    onSecondary → Branco.
+    secondaryContainer → Laranja claro.
+    onSecondaryContainer → Laranja escuro.-->
+
+    <!--4. Tertiary (Terciária)
+
+    tertiary → Cor de suporte, pode ser usada para destacar partes específicas.
+    onTertiary → Cor usada sobre tertiary.
+    tertiaryContainer → Variante do tertiary, usada como fundo.
+    onTertiaryContainer → Cor usada sobre tertiaryContainer.
+
+     Exemplo de uso:
+
+    tertiary → Verde.
+    onTertiary → Branco.
+    tertiaryContainer → Verde claro.
+    onTertiaryContainer → Verde escuro.-->
+
+    <!--5. Surface (Superfície)
+
+    surface → Cor da superfície de cards, diálogos e contêineres.
+    onSurface → Cor usada sobre surface.
+    surfaceVariant → Variante do surface, geralmente mais clara.
+    onSurfaceVariant → Cor usada sobre surfaceVariant.
+    surfaceTint → Um tom sutil aplicado às superfícies para criar profundidade.
+    inverseSurface → Usada para inverter o esquema de cores em alguns componentes (ex: modo escuro).
+    inverseOnSurface → Cor usada sobre inverseSurface.
+
+     Exemplo de uso:
+
+    surface → Branco.
+    onSurface → Preto ou cinza escuro.
+    surfaceVariant → Cinza claro.
+    onSurfaceVariant → Cinza escuro.-->
+
+    <!--6. Error (Erros)
+
+    error → Cor usada para mensagens e estados de erro.
+    onError → Cor usada sobre error (geralmente branco).
+    errorContainer → Variante do error, usada para fundos.
+    onErrorContainer → Cor usada sobre errorContainer.
+
+     Exemplo de uso:
+
+    error → Vermelho.
+    onError → Branco.
+    errorContainer → Vermelho claro.
+    onErrorContainer → Vermelho escuro.-->
+
+    <!--7. Outline (Contornos)
+
+    outline → Cor para bordas e contornos sutis (ex: bordas de caixas de texto).
+    outlineVariant → Variante do outline, geralmente mais clara ou escura.
+
+     Exemplo de uso:
+
+    outline → Cinza escuro.
+    outlineVariant → Cinza claro.-->
+
+    <!--8. Scrim (Sombreamento)
+
+    scrim → Usado para sobreposições (ex: fundo escurecido atrás de diálogos, BottomSheet).
+
+     Exemplo de uso:
+
+    scrim → Preto semi-transparente.-->
+    <!--endregion-->
+
+    <string name="phm_description">The Playground is a place where I will try to execute all my knowledge about the Android framework, explaining from the basics with components and to advanced like using specific sensor existent. Also I\'ll try to explore some the Kotlin syntax and API, some Java APIs like Executor, Atomic,</string>
+
+    <string name="arm_whats_an_activity">What\'s an Activity?</string>
+    <string name="arm_whats_an_activity_explained">Uma activity é a porta de entrada para um aplicativo Android. Devido a dinâmica de uso do dispositivo mobile, em que a interação de um usuário com o aplicativo nem sempre começa no mesmo lugar, as Activities permitem um comportamento não-determinístico, isso significa que caminhos iguais podem levar a lugares diferentes. Veja como exemplo, se você abrir um aplicativo de e-mail na tela inicial, poderá ver uma lista de e-mails. Por outro lado, se você estiver usando um aplicativo de mídia social que inicia seu aplicativo de e-mail, poderá ir diretamente para a tela do aplicativo de e-mail para redigir um e-mail.</string>
+    <string name="arm_starting_with_activity">Starting with Activity</string>
+    <string name="arm_starting_with_activity_explained">Para seu app poder utilizar uma activity, é necessário primeiro declara-la no arquivo manifest.</string>
+    <string name="arm_starting_with_activity_explained2">É possível também registrar no sistema operacional uma configuração que associará a sua activity, chamado de Intent. Está é uma ferramenta extremamente poderosa que será mais detalhada nas seção sobre Intents, por hora, vamos configurar um intent na activity para que esta seja aberta ao tocar no ícone do aplicativo.</string>
+
+    <string name="hme_about_me">Hello, I\'m Rafael, a software engineer focused on mobile applications. Executing and improving my skills for more than 6 years around the brazilian professionals market. My passion in my field of work are Design Pattern, Concurrency and Code Architecture</string>
+</resources>
