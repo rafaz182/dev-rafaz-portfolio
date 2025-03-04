@@ -1,33 +1,33 @@
 [versions]
 #plugin
-agp                         = "8.8.1"
-googleServices              = "4.4.2"
-kotlin                      = "1.9.25"
+agp                                 = "8.8.1"
+googleServices                      = "4.4.2"
+kotlin                              = "2.1.0"
 #libs
-appcompat                   = "1.6.1"
-androidActivity             = "1.10.0"
-coreKtx                     = "1.15.0"
-composeBom                  = "2025.02.00" #https://developer.android.com/develop/ui/compose/bom/bom-mapping
-firebaseBom                 = "33.9.0"
-material                    = "1.10.0"
+appcompat                           = "1.6.1"
+androidActivity                     = "1.10.0"
+coreKtx                             = "1.15.0"
+composeBom                          = "2025.02.00" #https://developer.android.com/develop/ui/compose/bom/bom-mapping
+firebaseBom                         = "33.9.0"
+material                            = "1.10.0"
 #test
-junit                       = "4.13.2"
-junitVersion                = "1.2.1"
-espressoCore                = "3.6.1"
+junit                               = "4.13.2"
+junitVersion                        = "1.2.1"
+espressoCore                        = "3.6.1"
 
 [libraries]
-androidx-activity           = { group = "androidx.activity", name = "activity-compose", version.ref = "androidActivity" }
-androidx-compose-bom        = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
-androidx-compose-material3  = { group = "androidx.compose.material3", name = "material3" }
-androidx-compose-material3-icons  = { group = "androidx.compose.material", name = "material-icons-extended" }
-androidx-compose-ui         = { group = "androidx.compose.ui", name = "ui" }
-androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
-androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-activity                   = { group = "androidx.activity", name = "activity-compose", version.ref = "androidActivity" }
+androidx-compose-bom                = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-material3          = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-material3-icons    = { group = "androidx.compose.material", name = "material-icons-extended" }
+androidx-compose-ui                 = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-test-manifest   = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-compose-ui-tooling         = { group = "androidx.compose.ui", name = "ui-tooling" }
 androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
-androidx-core-ktx           = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-firebase-analytics          = { group = "com.google.firebase", name = "firebase-analytics"}
-firebase-bom                = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom"}
-material                    = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-core-ktx                   = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+firebase-analytics                  = { group = "com.google.firebase", name = "firebase-analytics"}
+firebase-bom                        = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom"}
+material                            = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -35,7 +35,8 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 
 [plugins]
-android-application         = { id = "com.android.application", version.ref = "agp" }
-google-services             = { id = "com.google.gms.google-services", version.ref = "googleServices" }
-kotlin-android              = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-application                 = { id = "com.android.application", version.ref = "agp" }
+google-services                     = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+kotlin-android                      = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler                    = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 

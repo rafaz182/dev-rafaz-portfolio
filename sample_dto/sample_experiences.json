@@ -1,0 +1,93 @@
+{
+  "experiences": [
+    {
+      "company_name": "BTG Pactual",
+      "start_date": "2020-02",
+      "company_logo_url": "",
+      "positions":[
+        {
+          "title": "Associate Director",
+          "start_date": "2023-12",
+          "location": "São Paulo e Região, Brasil",
+          "location_type": "ON_SITE",
+          "employment_type": "FULL_TIME",
+          "description": "",
+          "skills": ["Mobile Application Development", "Managing Associates", "KMP", "Gradle Scripting"]
+        },
+        {
+          "title": "IT Analyst",
+          "start_date": "2020-02",
+          "end_date": "2023-12",
+          "location": "São Paulo e Região, Brasil",
+          "location_type": "HYBRID",
+          "description": "",
+          "skills": ["Koin", "MVVM", "OOP", "Design System", "Modularization", "Coroutine", "Firebase", "Livedata", "Git", "Kotlin", "Design Pattern"]
+        }
+      ]
+    },
+    {
+      "company_name": "MC1",
+      "start_date": "2019-08",
+      "end_date": "2020-02",
+      "company_logo_url": "",
+      "positions":[
+        {
+          "title": "Android Engineer",
+          "start_date": "2019-08",
+          "end_date": "2020-02",
+          "location": "São Paulo e Região, Brasil",
+          "location_type": "ON_SITE",
+          "employment_type": "FULL_TIME",
+          "description": "",
+          "skills": ["SQLite", "MVVM", "OOP", "Custom Views", "Java", "Design Pattern", "Executor API", "Git"]
+        }
+      ]
+    },
+    {
+      "company_name": "Itaú Unibanco",
+      "start_date": "2018-12",
+      "end_date": "2019-08",
+      "company_logo_url": "",
+      "positions":[
+        {
+          "title": "Android Engineer",
+          "start_date": "2019-08",
+          "end_date": "2020-02",
+          "location": "São Paulo e Região, Brasil",
+          "location_type": "ON_SITE",
+          "employment_type": "FULL_TIME",
+          "description": "",
+          "skills": ["Java", "Design Pattern", "Executor API", "Retrofit", "Views/XML", ]
+        }
+      ]
+    },
+    {
+      "company_name": "MC1",
+      "start_date": "2016-12",
+      "end_date": "2018-12",
+      "company_logo_url": "",
+      "positions":[
+        {
+          "title": "Junior Software Engineer",
+          "start_date": "2017-12",
+          "end_date": "2018-12",
+          "location": "São Paulo e Região, Brasil",
+          "location_type": "ON_SITE",
+          "employment_type": "FULL_TIME",
+          "description": "",
+          "skills": ["MVVM", "OOP", "Livedata", "Git", "Java", "Design Pattern", "SQLite", "Custom Views", "Jacoco"]
+        },
+        {
+          "title": "Software Engineer Intern",
+          "start_date": "2016-12",
+          "end_date": "2017-12",
+          "location": "São Paulo e Região, Brasil",
+          "location_type": "HYBRID",
+          "employment_type": "INTERNSHIP",
+          "description": "",
+          "skills": ["MVVM", "OOP", "Livedata", "Git", "Java", "Design Pattern", "SQLite"]
+        }
+      ]
+    }
+  ]
+}
