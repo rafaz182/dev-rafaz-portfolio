@@ -1,13 +1,13 @@
 [versions]
 #plugin
-agp                                 = "8.8.1"
+agp                                 = "9.0.0"
 googleServices                      = "4.4.2"
 kotlin                              = "2.1.0"
 #libs
-appcompat                           = "1.6.1"
+appcompat                           = "1.7.0"
 androidActivity                     = "1.10.0"
 coreKtx                             = "1.15.0"
-composeBom                          = "2025.02.00" #https://developer.android.com/develop/ui/compose/bom/bom-mapping
+composeBom                          = "2025.09.01" #https://developer.android.com/develop/ui/compose/bom/bom-mapping
 firebaseBom                         = "33.9.0"
 material                            = "1.10.0"
 #test

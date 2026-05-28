@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
+    //alias(libs.plugins.kotlin.android)
     alias(libs.plugins.google.services)
     alias(libs.plugins.compose.compiler)
 }
@@ -29,15 +29,18 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_19
-        targetCompatibility = JavaVersion.VERSION_19
-    }
-    kotlinOptions {
-        jvmTarget = "19"
+        sourceCompatibility = JavaVersion.toVersion("21")
+        targetCompatibility = JavaVersion.toVersion("21")
     }
 
     buildFeatures {
         compose = true
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21)
     }
 }
 
